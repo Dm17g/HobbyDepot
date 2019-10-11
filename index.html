@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">	
+    <title>The Hobby Depot | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="page-wrap"></div>
+
+<div class="Logo"></div>
+	<header>
+	
+  <div id="Companylogo">
+		<a href="index.html">
+		<img src="Images/Logo.png" alt="Logo" ><!--logo link to homepage-->
+		</a>
+
+
+		</div>
+		</header>
+	</div>
+	
+
+ <main>
+	<div class="Name">
+		<h1>The Hobby Depot</h1>
+	</div>
+
+
+	<nav>
+		<ul>
+  		<li><a href="index.html">Home</a></li>
+ 		<li><a href="About.html">About</a></li>
+  		<li><a href="Products.html">Products</a></li>
+ 		<li><a href="Contact.html">Contact Us</a></li>
+		</ul>
+	</nav>
+
+
+<div class="gallery">
+  <img class="mySlides" src="Images/gunpla.jpg">
+  <img class="mySlides" src="Images/car.jpg">
+  <img class="mySlides" src="Images/airplane.jpg">
+  <img class="mySlides" src="Images/store.jpg">
+
+  <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>		
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+<div id="Homesection">
+	<h2 id="Homesectionh">The Model and Supply Center</h2>
+	<p id="Homep">
+		Over the last decade The Hobby Depot has become one of Arizona's premier hobby shops and is unique in it's dedication to hobbyists who are interested in taking their hobby and craft to the next level. Whether it is finding books and magazines on dozens of modeling topics, finding the latest and greatest kids, building, and detailing supplies, or those hard to find items that you need for your special project, you will find it here at The Hobby Depot. If it isn't already in stock, we can get it for you.
+	</p>
+	<p id="Homep2">
+		Please take a look around this new website of ours and come visit us at our recently expanded hobby center in Tempe, AZ.
+	</p>
+	
+</div>
+
+	<footer>
+		<div class="footer1">
+		<p>Copyright @ 2019 The Hobby Depot. Website designed and created by Dario Mazon-Gallardo</p>
+		</div>
+	</footer>
+
+    </main>
+</body>
+</html>
