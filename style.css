@@ -1,0 +1,506 @@
+@font-face {
+    font-family: 'orbitronblack';
+    src: url('orbitron-black-webfont.woff2') format('woff2'),
+         url('orbitron-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html,body 
+{
+	height: 100%;
+	position: relative;
+	background-color: #E0E0E0;
+}
+
+p 
+{
+	font-family: 'orbitronblack';
+	font-weight:normal;
+	font-style:normal;
+}
+
+h1{
+		color: white;
+}
+
+h2
+{
+	font-family: 'orbitronblack';
+	font-weight:normal;
+	font-style:normal;
+}
+
+h3
+{
+	font-family: 'orbitronblack';
+    font-weight:normal;
+    font-style:normal;
+}
+
+h4
+{
+	font-family: 'orbitronblack';
+	font-weight:normal;
+	font-style:normal;
+   
+}
+
+div.Logo{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+}
+
+nav {
+	font-family: 'orbitronblack';
+	font-weight:normal;
+	font-style:normal;
+ 	width: 100%;
+ 	margin-bottom: 10px;
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li 
+{
+    float: left;
+}
+
+li a 
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    margin-left: 300px;
+}
+
+li a:hover 
+{
+    background-color: white;
+}
+
+a
+{
+	color: black;
+}
+
+
+ul {
+	color: white;
+}
+
+header {
+	color: white;
+}
+
+
+
+.mySlides {
+	display:none;
+}
+
+#Companylogo
+{
+	position: absolute;
+	top: 100px;
+	left: 10%;
+	height: 200px; 
+	width: 20%
+}
+
+
+#Homesection
+{
+	font-family: 'orbitronblack';
+	font-weight:normal;
+	font-style:normal;
+	width: 50%;
+	position: absolute;
+	top: 40%;
+    left: 40%;
+    font-size: 25px;
+}
+
+.mySlides
+{
+	height: 500px;
+	width: 35%;
+
+}
+
+.store1
+{
+	height: 40%;
+	width: 35%;
+	position: absolute;
+	top: 45%;
+}
+
+.store2
+{
+	height: 40%;
+	width: 35%;
+	position: absolute;
+	top: 1100px;
+    left: 50%;
+    bottom: 
+}
+
+#Aboutsection
+{
+	font-family: 'orbitronblack';
+	font-weight:normal;
+	font-style:normal;
+	width: 50%;
+	position: absolute;
+	top: 40%;
+    left: 40%;
+    font-size: 25px;
+}
+
+#sidelist
+{
+	font-family: 'orbitronblack';
+	font-weight:normal;
+	font-style:normal;
+	width: 30%;
+	position: absolute;
+	top: 1100px;
+    right: 60%;
+    font-size: 25px;	
+}
+
+
+div.Name
+{
+	background-color: black;
+	font-family: 'orbitronblack';
+	font-weight:normal;
+	font-style:normal;
+	width: 50%;
+	position: absolute;
+	top: 5%;
+    left: 40%;
+    font-size: 30px;
+}
+
+
+footer
+{
+	bottom: 0;
+	background: black;
+	width: 100%;
+	height: 5%;
+    text-align: center;
+    color: white;
+}
+
+.footer1
+{
+	position: absolute;
+	bottom: 0;
+	background: black;
+	width: 100%;
+	height: 5%;
+    text-align: center;
+    color: white;
+}
+
+
+.footer2
+{
+	position: absolute;
+	bottom: 0;
+	top: 1600px;
+	background: black;
+	width: 100%;
+	height: 5%;
+    text-align: center;
+    color: white;
+}
+
+.footer3
+{
+	position: absolute;
+	bottom: 0;
+	top: 2000px;
+	background: black;
+	width: 100%;
+	height: 5%;
+    text-align: center;
+    color: white;
+}
+
+.section-header
+{
+
+	font-family: 'orbitronblack';
+	font-weight:normal;
+	font-style:normal;
+	width: 100%;
+	text-align: center;
+}
+
+.section-header2
+{
+	position: absolute;
+	top: 1050px;
+	font-family: 'orbitronblack';
+	font-weight:normal;
+	font-style:normal;
+	width: 100%;
+	text-align: center;
+}
+
+.section-header3
+{
+	position: absolute;
+	top:1700px;
+	font-family: 'orbitronblack';
+	font-weight:normal;
+	font-style:normal;
+	width: 100%;
+	text-align: center;
+}
+
+.shop-item-image
+{
+	width: 300px;
+	height: 400px;
+	align-self: center;
+}
+
+.shop-item1
+{
+	position: absolute;
+	top: 450px;
+	background-color: black;
+	font-family: 'orbitronblack';
+	font-weight:normal;
+	font-style:normal;
+	color: blue;
+	height:500px;
+	width: 400px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	background-color: grey;
+	font-size: 20px;
+	text-align: center;
+}
+.shop-item2
+{
+	position: absolute;
+	top: 450px;
+	left: 500px;
+	background-color: black;
+	font-family: 'orbitronblack';
+	font-weight:normal;
+	font-style:normal;
+	color: blue;
+	height:500px;
+	width: 400px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	background-color: grey;
+	font-size: 20px;
+	text-align: center;
+}
+.shop-item3
+{
+	position: absolute;
+	top: 450px;
+	left: 1000px;
+	background-color: black;
+	font-family: 'orbitronblack';
+	font-weight:normal;
+	font-style:normal;
+	color: blue;
+	height:500px;
+	width: 400px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	background-color: grey;
+	font-size: 20px;
+	text-align: center;
+}
+.shop-item4
+{
+	position: absolute;
+	top: 450px;
+	left: 1500px;
+	background-color: black;
+	font-family: 'orbitronblack';
+	font-weight:normal;
+	font-style:normal;
+	color: blue;
+	height:500px;
+	width: 400px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	background-color: grey;
+	font-size: 20px;
+	text-align: center;
+}
+
+.shop-item5
+{
+	position: absolute;
+	top: 1150px;
+	left: 500px;
+	background-color: black;
+	font-family: 'orbitronblack';
+	font-weight:normal;
+	font-style:normal;
+	color: blue;
+	height:500px;
+	width: 400px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	background-color: grey;
+	font-size: 20px;
+	text-align: center;
+}
+
+.shop-item6
+{
+	position: absolute;
+	top: 1150px;
+	left: 1000px;
+	background-color: black;
+	font-family: 'orbitronblack';
+	font-weight:normal;
+	font-style:normal;
+	color: blue;
+	height:500px;
+	width: 400px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	background-color: grey;
+	font-size: 20px;
+	text-align: center;
+}
+
+.btn.btn-primary.shop-item-button
+{
+	background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.container.content-section1
+{
+	position: absolute;
+	top: 1800px;
+	left: 800px;
+	background-color: grey;
+	font-family: 'orbitronblack';
+	font-weight:normal;
+	font-style:normal;
+	font-size: 20px;
+	text-align: center;
+}
+
+.cart-item.cart-header.cart-column
+{
+	width: 400px;
+	height: 150px;
+	align-self: center;
+}
+
+.OrderButton
+{
+	
+	font-family: 'orbitronblack';
+	font-weight:normal;
+	font-style:normal;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	background-color: blue;
+	font-size: 20px;
+	text-align: center;
+}
+#Location
+{
+	position: absolute;
+	top: 400px;
+	left: 500px;
+}
+
+#contact_form
+{
+	position: absolute;
+	top: 400px;
+	right: 500px;
+
+}
+
+fieldset 
+{
+	font-family: 'orbitronblack';
+	font-weight:normal;
+	font-style:normal;
+	color: black;
+	font-size: 18px;
+	width: 50%
+	height: 50%;
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+	padding-bottom: 20px;
+}
+
+#submit_request
+{
+	background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  align-self: center;
+}
+
+#jtotal
+{
+		font-family: 'orbitronblack';
+	font-weight:normal;
+	font-style:normal;
+	color: black;
+	font-size: 18px;
+}
+
+#name_error, #lname_error, #email_error, #phone_error, #address_error, #zip_error, #cardname_error, #cardnumber_error, #cvv_error
+{
+	color: red;
+}
